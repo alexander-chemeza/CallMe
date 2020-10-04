@@ -6,24 +6,28 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CallMe</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/ico.css">
-    <script src="./js/ico.js"></script>
 </head>
 <body>
+    <div class="container">
+        <header>
+            <div class="logo-icon">
+                <a href="index.html" id="logo"></a>
+                <a class="logo-text" href="index.html">CallMe</a>
+            </div>
 
-<div id="logo"></div>
-<div id="user"></div>
-<div id="add"></div>
-<div id="del"></div>
-<div id="show"></div>
+            <div class="account">
+                <button id="sign-up">Sign Up</button>
+                <button id="sign-in">Sign In</button>
+            </div>
+        </header>
+    </div>
 
+<script src="./js/ico.js"></script>
 <script>
     let ico = new Icon("#2980b9", "#ecf0f1", "#bdc3c7");
     ico.logo("logo");
-    ico.user("user");
-    ico.add("add");
-    ico.del("del");
-    ico.show("show");
 </script>
 </body>
 </html>
